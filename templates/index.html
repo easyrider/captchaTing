@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Captcha Ting</title>
+    <style type="text/css">
+      body {
+        margin: 1em 5em 0 5em;
+        font-family: sans-serif;
+      }
+      fieldset {
+        display: inline;
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+  <p>Token Harvesting for Caliroots</p>
+  <form action="/" method="post">
+    <fieldset>
+      <div class="g-recaptcha" data-sitekey="{{ sitekey }}"></div>
+      <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+      <p><input type="submit" value="Submit" id="submit"/></p>
+    </fieldset>
+  </form>
+  </body>
+</html>
